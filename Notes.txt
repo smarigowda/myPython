@@ -14,6 +14,15 @@ these techniques are convenient when we can not predict the number of arguments 
 
 func(*open('fname')
 
+Functions objects can also be passed to functions just like any other object
+
+def kwonly(a, *b, c): # here c must be passed by keywork only
+
+def kwonly(a, *, b, c): # a may be passed by position or keyword but b and c should be passed by keyword only
+
+def kwonly(a, *, b='spam', c='ham'): # b and c are optional, if given they should be passed using keyword only
+
+named arguments can not appear after **
 
 
 
