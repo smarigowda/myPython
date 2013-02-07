@@ -1,0 +1,3 @@
+* and ** support functions to take any number of arguments.
+
+
