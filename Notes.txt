@@ -24,5 +24,62 @@ def kwonly(a, *, b='spam', c='ham'): # b and c are optional, if given they shoul
 
 named arguments can not appear after **
 
+09/02/2013:
+
+Function should be independent of things outside of it.
+
+Minimise external dependencies in functions and other program components.
+
+Python's object model and lack of type declarations make it incredibly flexible programming language.
+
+Introspection tools allows to explore the internals/ implementation details.
+
+function attributes can be used to attach state information to function objects DIRECTLY.
+
+ex: if x is a function, x.count = 1 will attach an attribute called count.
+
+
+Function Annotation:
+- attached to __annonantions__ attribute for use by other tools.
+
+Lambda:
+Anonymous Functions
+An expression that generates function objects.
+lambda returns a new function.
+lambda's body is a single statement, but a block of statements. this is by design, to limit program nesting.
+
+used:
+1. to inline a function definition (no name)
+2. defer the execution of a piece of code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
