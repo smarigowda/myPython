@@ -51,14 +51,21 @@ lambda's body is a single statement, but a block of statements. this is by desig
 used:
 1. to inline a function definition (no name)
 2. defer the execution of a piece of code
+3. they bring code proximity
+4. easier to use as call back handlers
 
+map function: A way to apply functions to iterables
+> applies the passed in function to each item in an iterable object and returns a list returning all the function call results.
+> map needs a function, it can not take arbitrary expression
 
+Filter and Reduce:
+-----------------
+filter - filters out the items  based on test function
+reduce - applies functions to pairs of items. accepts an iterable but it is not an iterator itself. it returns a single result.
 
+They return iterables
 
-
-
-
-
+list comprehension: applies an expression (not a function) to items in an iterbel. so they are more general tools.
 
 
 
