@@ -57,6 +57,8 @@ used:
 map function: A way to apply functions to iterables
 > applies the passed in function to each item in an iterable object and returns a list returning all the function call results.
 > map needs a function, it can not take arbitrary expression
+> map is an iterator
+
 
 Filter and Reduce:
 -----------------
@@ -66,6 +68,32 @@ reduce - applies functions to pairs of items. accepts an iterable but it is not 
 They return iterables
 
 list comprehension: applies an expression (not a function) to items in an iterbel. so they are more general tools.
+
+Generators:
+-----------
+
+Python provides tools that produce results only when needed instead of all at once.
+
+- Generator Functions, def + yield
+- Generator Expressions, return an object that produces results on demand
+
+They save memory, split computation time
+They implement an ITERATION PROTOCOL
+Functions containing yield statement are generators
+Poor mans multithreading device
+
+It is possible to implement generator objects with classes
+
+Modules
+-------
+from - copies the names from one module to another it does not assign
+
+
+
+
+
+
+
 
 
 
